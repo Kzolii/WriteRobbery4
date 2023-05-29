@@ -1,0 +1,14 @@
+(--)
+
+Ebben a projektben bemutatunk egy egyszerű, biztonságos és jól működő kvíz játékot a (--).
+
+A tanulókártya egy gyors módja annak, hogy áttekintsd az információkat, hogy megtanuld vagy megjegyezd azokat. Akár vizsgára készül, vagy egyszerűen csak szeretné összerakni tudását a kártyák használata segíthet ebben. A különböző flashcards appokat, szoftveresen, de akár weboldalon is tudjuk használni. A különbség a kettő között, hogy a szoftvert le kell telepíteni az eszközünkre, míg a weboldal alapú flashcards appokat, nem kell. 
+
+Ezzel az alkalmazással hatékonyan lehet tanulni, kiírja jó eredményeket és öszegzi őket, mindig naprakész, egyszerű a felülete.   
+
+(Képek, tutorial videó)
+
+(Tartalmazza az alkalmazást magába foglaló oldalra mutató “linket”.)
+
+
+
