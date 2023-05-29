@@ -53,3 +53,11 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+p{
+    font-size: 120%;
+}
+
+#fo{
+    font-size: 150%;
+}
