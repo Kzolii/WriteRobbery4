@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+    background-color: #222;
+    color: white;
 }
 
 #icon{ 
@@ -16,6 +16,13 @@ body{
     }
 }
 
+@media only screen and (min-width: 992px) {
+    a:hover{
+        transform: scale(1.1);
+        transition: .1s;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     #icon{
         width: 12%;
@@ -24,13 +31,13 @@ body{
 }
 
 #iconszoveg{
-    font-size: 150%; 
+    font-size: 150%;
 }
 
 button{
     border: none;
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+    background-color: #111;
+    color: white;
 }
 
 .navbar-header{
@@ -42,9 +49,9 @@ button{
     margin-right:0;
 }
 
-.menu{
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+#menu{
+    background-color: #111;
+    color: white;
 }
 
 footer{
@@ -60,4 +67,15 @@ p{
 
 #fo{
     font-size: 150%;
+}
+
+.navbar-nav{
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+}
+
+
+button:hover{
+    background-color: #414141;
+    border-radius: 2px;
 }
