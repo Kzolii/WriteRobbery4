@@ -1,121 +1,113 @@
-body{
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+body {
+    background-color: #222;
+    color: white;
 }
 
-.kepek{
-    width: 500px;
-    position: relative;
-}
-
-#icon{ 
-    width: 5%; 
+#icon {
+    width: 5%;
     border-radius: 40px;
     float: left;
 }
 
 @media only screen and (max-width: 1200px) {
-    #icon{
+    #icon {
         width: 8%;
         border-radius: 40px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    #icon{
-        width: 12%;
-        border-radius: 40px;
+@media only screen and (min-width: 992px) {
+    a:hover {
+        transform: scale(1.1);
+        transition: .1s;
+    }
+
+    footer {
+        position: absolute;
+        left: 0;
+        width: 100%;
     }
 }
 
-#iconszoveg{
-    font-size: 150%; 
+@media only screen and (max-width: 768px) {
+    #icon {
+        width: 12%;
+        border-radius: 40px;
+    }
+    footer {
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
 }
 
-button{
+#iconszoveg {
+    font-size: 150%;
+}
+
+button {
     border: none;
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+    background-color: #222;
+    color: white;
 }
 
-.navbar-header{
-    text-align:center;
+.navbar-header {
+    text-align: center;
 }
 
 .navbar-toggle {
     float: none;
-    margin-right:0;
+    margin-right: 0;
 }
 
-.menu{
-    background-color: rgb(17, 24, 39);
-    color: rgb(156, 163, 175);
+.menu {
+    background-color: #111;
+    color: white;
 }
 
-footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
 
-p{
+
+p {
     font-size: 120%;
 }
 
-#fo{
+#fo {
     font-size: 145%;
 }
 
-label{
-    position: relative;
+.nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: white;
+}
+
+button:hover {
+    background-color: #414141;
+    border-radius: 2.5px;
+}
+
+.kepek {
+    width: 100%;
+}
+
+.divek{
+    margin-top: 7rem;
+}
+
+p{
+    vertical-align: middle;
+}
+
+#kep3{
+    width: 80%; 
     display: block;
-    background-color: rgb(17, 24, 39);
-    border-radius: 200px;
-    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4) inset 0px -5px 15px rgba(255, 255, 255, 0.4);
-    cursor: pointer;
-    transition: 0.3s;
+    margin: auto
 }
 
-label:after{
-    content: "";
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top:10px;
-    left: 10px;
-    background:linear-gradient(180deg,#ffcc89,#d8860b);
-    border-radius: 180px;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-}
-
-input{
-    width: 0;
-    height: 0;
-    visibility: hidden;
-}
-input:checked + label {
-    background: #242424;
-}
-input:checked + label:after {
-    left: 75px;
-    transform: translateX(-100%);
-    background: linear-gradient(180deg, #777, #3a3a3a);
-}
-label:active:after{
-    width: 25px;
-}
-
-.background{
-    width: 5vw;
-    height: 5vh;
-    background: #fff;
-    z-index: -1;
-    position: absolute;
-    transition: 0.3s;
-}
-
-input:checked + label + .background{
-    background: #242424; 
+.light-mode {
+    background-color: white;
+    color: black;
 }

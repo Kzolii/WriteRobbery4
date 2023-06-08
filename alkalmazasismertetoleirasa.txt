@@ -1,4 +1,4 @@
-(--)
+Brain Blitz
 
 Ebben a projektben bemutatunk egy egyszerű, biztonságos és jól működő kvíz játékot a (--).
 
